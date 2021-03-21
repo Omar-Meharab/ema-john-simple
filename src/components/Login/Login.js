@@ -115,7 +115,7 @@ function Login() {
                 <br />
                 <input type="password" name="password" placeholder="password" onBlur={handleBlur} required />
                 <br />
-                <input type="submit" value={newUser ? 'Sing Up' : 'Sign In'} />
+                <input type="submit" value={newUser ? 'Sign Up' : 'Sign In'} />
             </form>
             <p style={{ color: 'red' }}>{user.error}</p>
             {
